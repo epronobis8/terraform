@@ -19,7 +19,7 @@ resource "aws_instance" "web_server" {
   instance_type   = "t3.medium"
 
   tags = {
-    Name        = "ExampleAppWebInstance"
+    Name        = "Sample-App-EC2-Erin"
     Environment = "test"
     Owner       = "Erin Pronobis"
     Application = "Apache Server"
